@@ -12,13 +12,13 @@ public class task1{
  *  ---------------------------------------------------------------------------------------
  *  N  				: Number Of Possible Outcomes
  *  A B 			: N times {A,B} where A is the outcome and b is the percentage
- *	A B
+ *  A B
  *  A B
  *  : :
  *  : :
- *	: :
- *	A B
- *	I 				: Number of Iterations or Number of Time EVENT OCCURRED
+ *  : :
+ *  A B
+ *  I 				: Number of Iterations or Number of Time EVENT OCCURRED
  *  ---------------------------------------------------------------------------------------
  *  CONSTRAINTS :
  *  ---------------------------------------------------------------------------------------
@@ -35,7 +35,8 @@ public class task1{
  *  use random function to get an index from which we select an element from ArrayList and
  *  as per the value of ArrayList we increment the outputArray respectively.
  *  
- *  EXAMPLE : 
+ *  EXAMPLE 1 : 
+ * ---------------------------------------------------------------------------------------
  *  INPUT :
  *  ****** 
  *  2   
@@ -69,7 +70,20 @@ public class task1{
  *  OUTCOMES : [3048, 6952]
  *  PERCENTAGES :[{ 1 : 30.48% }, { 2 : 69.52% }]
  *  ---------------------------------------------------------------------------------------
- *  
+ *  EXAMPLE 2 : INPUT/OUTPUT 
+ *  ---------------------------------------------------------------------------------------
+ *  6
+ *  1 10
+ *  2 30
+ *  3 15
+ *  4 15
+ *  5 30
+ *  6 0
+ *  10000
+ *  KEYS : [1, 2, 3, 4, 5, 6]
+ *  OUTCOMES : [991, 3080, 1469, 1521, 2939, 0]
+ *  PERCENTAGES :[{ 1 : 9.910000% }, { 2 : 30.800000% }, { 3 : 14.690000% }, { 4 : 15.210000% }, { 5 : 29.390000% }, { 6 : 0.000000% }] 
+ *  ---------------------------------------------------------------------------------------
  *  
 */	
 	
