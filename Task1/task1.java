@@ -124,7 +124,7 @@ public class task1{
 		System.out.println("OUTCOMES : " +output);
 		System.out.print("PERCENTAGES :");
 		System.out.print("[");
-		for(i = 0; i < map.size(); i++) System.out.print("{ "+outcomes[i] +" : "+String.format("%.2f",((outputCount[i] *1.0/I) * 100.0))+ (i == map.size()-1 ? "% }" : "% }, "));
+		for(i = 0; i < map.size(); i++) System.out.print("{ "+outcomes[i] +" : "+String.format("%.6f",((outputCount[i] *1.0/I) * 100.0))+ (i == map.size()-1 ? "% }" : "% }, "));
 		System.out.print("]");
 		
     }
