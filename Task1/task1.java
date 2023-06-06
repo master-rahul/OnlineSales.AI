@@ -51,14 +51,14 @@ public class task1{
  *  OUTPUT = [{1 : 0}, {2 : 0}]
  *  As per our solution we will create of 5 random ArrayList Like below : 
  *  
- *  1 2 1 1 2 2 2 2 2 2     -> {Three 1, Seven 2}   {Random index = 2} 		{OUTPUT : [{1 : 1}, {2 : 0}]}
- * 	1 2 2 2 2 1 2 1 2 2		-> {Three 1, Seven 2}   {Random index = 3} 		{OUTPUT : [{1 : 1}, {2 : 1}]}
+ *  1 2 1 1 2 2 2 2 2 2    	-> {Three 1, Seven 2}   {Random index = 2} 		{OUTPUT : [{1 : 1}, {2 : 0}]}
+ *  1 2 2 2 2 1 2 1 2 2		-> {Three 1, Seven 2}   {Random index = 3} 		{OUTPUT : [{1 : 1}, {2 : 1}]}
  *  1 2 1 2 2 2 2 1 2 2		-> {Three 1, Seven 2}   {Random index = 1} 		{OUTPUT : [{1 : 1}, {2 : 2}]}
  *  1 1 2 2 2 2 2 2 2 1		-> {Three 1, Seven 2}   {Random index = 0} 		{OUTPUT : [{1 : 2}, {2 : 2}]}
  *  2 2 2 2 2 1 2 2 1 1		-> {Three 1, Seven 2}   {Random index = 7} 		{OUTPUT : [{1 : 2}, {2 : 3}]}
- *  : : : : : : : : : :     : : : : : : : : : : :   : : : :  : : : :  		  : : : :  : : : :  : : : : 
- *  : : : : : : : : : :     : : : : : : : : : : :   : : : :  : : : :  		  : : : :  : : : :  : : : : 
- *  : : : : : : : : : :     : : : : : : : : : : :   : : : :  : : : :  		  : : : :  : : : :  : : : : 
+ *  : : : : : : : : : :     	: : : : : : : : : : :   : : : :  : : : :  		  : : : :  : : : :  : : : : 
+ *  : : : : : : : : : :     	: : : : : : : : : : :   : : : :  : : : :  		  : : : :  : : : :  : : : : 
+ *  : : : : : : : : : :     	: : : : : : : : : : :   : : : :  : : : :  		  : : : :  : : : :  : : : : 
  *  2 2 2 2 2 1 2 2 1 1		-> {Three 1, Seven 2}   {Random index = 7} 		{OUTPUT : [{1 : 3048}, {2 : 6952}]}
  *  
  *  We made length of our ArrayList as 10 as the sum of percentages = 10;
