@@ -49,8 +49,8 @@ public class task1{
  *  A = [1, 2]
  *  B = [3, 7]
  *  I = 10000
- *  OUTPUT = [{1 : 0}, {2 : 0}]
- *  As per our solution we will create of 5 random ArrayList Like below : 
+ *  OUTPUT = [{1 : 3048}, {2 : 6952}]
+ *  As per our solution we will create of 10000 random ArrayList Like below : 
  *  
  *  1 2 1 1 2 2 2 2 2 2    	-> {Three 1, Seven 2}   {Random index = 2} 		{OUTPUT : [{1 : 1}, {2 : 0}]}
  *  1 2 2 2 2 1 2 1 2 2		-> {Three 1, Seven 2}   {Random index = 3} 		{OUTPUT : [{1 : 1}, {2 : 1}]}
